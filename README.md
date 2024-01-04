@@ -11,6 +11,6 @@
 
 ## How to run
 - Install Java (20+)
-- Navigate to calculator-project-main\out\production\Calculator directory
-- Open command line inside said directory
-- Type "java Calculator"
+- Open command line inside calculator-project folder
+- Type "java -jar Calculator.jar"
+- Done
