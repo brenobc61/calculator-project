@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calculator">
+  <grid id="27dc6" binding="calculatorPanel" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="35">
+    <margin top="25" left="25" bottom="25" right="25"/>
+    <constraints>
+      <xy x="20" y="20" width="583" height="575"/>
+    </constraints>
+    <properties>
+      <background color="-12566195"/>
+      <foreground color="-13683906"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="bd97a" class="javax.swing.JTextField" binding="outputField">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="25"/>
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11118221"/>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="39c0" class="javax.swing.JButton" binding="numberThree">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="58af" class="javax.swing.JButton" binding="add">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="e8a1" class="javax.swing.JButton" binding="numberSix">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="17de" class="javax.swing.JButton" binding="subtract">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="d94a9" class="javax.swing.JButton" binding="numberTwo">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="b1153" class="javax.swing.JButton" binding="numberFive">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="aaeb1" class="javax.swing.JButton" binding="numberOne">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="58cd9" class="javax.swing.JButton" binding="numberFour">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="fdbd6" class="javax.swing.JButton" binding="numberSeven">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="fcf2c" class="javax.swing.JButton" binding="numberEight">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="fab2b" class="javax.swing.JButton" binding="numberNine">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="7a164" class="javax.swing.JButton" binding="multiply">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="74f61" class="javax.swing.JButton" binding="dot">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="825a3" class="javax.swing.JButton" binding="numberZero">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="9c36f" class="javax.swing.JButton" binding="equals">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="d4142" class="javax.swing.JButton" binding="divide">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="1f92d" class="javax.swing.JButton" binding="clear">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="CL"/>
+        </properties>
+      </component>
+      <component id="2ebf4" class="javax.swing.JButton" binding="undo">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="UN"/>
+        </properties>
+      </component>
+      <component id="fb54" class="javax.swing.JButton" binding="squareRoot">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="√"/>
+        </properties>
+      </component>
+      <component id="8a9bf" class="javax.swing.JButton" binding="powerOf">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="70" height="35"/>
+            <preferred-size width="70" height="35"/>
+            <maximum-size width="70" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13947854"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Source Code Pro" size="22"/>
+          <foreground color="-9"/>
+          <text value="x²"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
