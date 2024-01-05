@@ -25,6 +25,8 @@ public class Calculator {
     private JButton undo;
     private JButton squareRoot;
     private JButton powerOf;
+    private JButton percent;
+    private JButton factorial;
     private Double numberBuffer = 0.0;
     private Double result = 0.0;
     private String operation = "";
@@ -173,27 +175,38 @@ public class Calculator {
             }
         });
 
+        percent.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                setOperation("percent");
+            }
+        });
+
         equals.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                Double currentNumber = Double.parseDouble(outputField.getText());
                 switch(operation) {
                     case "add":
-                        result = numberBuffer + Double.parseDouble(outputField.getText());
+                        result = numberBuffer + currentNumber;
                         break;
                     case "subtract":
-                        result = numberBuffer - Double.parseDouble(outputField.getText());
+                        result = numberBuffer - currentNumber;
                         break;
                     case "multiply":
-                        result = numberBuffer * Double.parseDouble(outputField.getText());
+                        result = numberBuffer * currentNumber;
                         break;
                     case "divide":
-                        result = numberBuffer / Double.parseDouble(outputField.getText());
+                        result = numberBuffer / currentNumber;
                         break;
                     case "powerOf":
-                        result = Math.pow(numberBuffer, Double.parseDouble(outputField.getText()));
+                        result = Math.pow(numberBuffer, currentNumber);
+                        break;
+                    case "percent":
+                        result = numberBuffer * currentNumber/100;
                         break;
                     default:
-                        result = Double.parseDouble(outputField.getText());
+                        result = currentNumber;
                         break;
                 }
                 String output = removeZerosIfNecessary(result.toString());
