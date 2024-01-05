@@ -3,7 +3,7 @@
 - Aims to simulate a calculation tool using Java Swing as GUI
 
 ## Preview
-![preview1](https://github.com/brenobc61/calculator-project/blob/main/assets/preview_1.png)
+![preview1](https://github.com/brenobc61/calculator-project/blob/main/assets/preview.png)
 
 ## Technologies
 - Java 
