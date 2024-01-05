@@ -182,6 +182,26 @@ public class Calculator {
             }
         });
 
+        factorial.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                numberBuffer = Double.parseDouble(outputField.getText());
+                if (numberBuffer == 0) {
+                    String output = "1"; // factorial of 0 is 1
+                    outputField.setText(output);
+                    return;
+                }
+
+                result = numberBuffer--;
+                while (numberBuffer != 0) {
+                    result *= numberBuffer;
+                    numberBuffer -= 1;
+                }
+                String output = removeZerosIfNecessary(result.toString());
+                outputField.setText(output);
+            }
+        });
+
         equals.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
